@@ -1,4 +1,4 @@
-# quiz_app_internship
+# quiz_app
 
 A new Flutter project.
 
