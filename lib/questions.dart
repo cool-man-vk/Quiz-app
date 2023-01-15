@@ -14,7 +14,8 @@ class Question extends StatelessWidget {
       child:Text(
             questionText , 
             style : const TextStyle(
-              fontSize:28 ,
+              fontSize:20 ,
+              fontWeight: FontWeight.bold,
           ),
           textAlign: TextAlign.center,
     ));

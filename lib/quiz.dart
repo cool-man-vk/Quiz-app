@@ -27,6 +27,7 @@ class Quiz extends StatelessWidget {
                       answer['text'] as String);
                 }
               ).toList()
-          ],);
+          ],
+          );
   }
 }

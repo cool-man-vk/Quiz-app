@@ -9,18 +9,18 @@ class Result extends StatelessWidget
     String? resultText;
     if(resultScore == 3)
     {
-      resultText = "You answered all correct";
+      resultText = "Wohoo...!😆😆You answered all correct";
     }
     else if(resultScore == 2){
-      resultText = "You answered 2 correct";
+      resultText = "Wohoo..!😄😄You answered 2 correct";
     }
     else if(resultScore == 1)
     {
-      resultText = "You answered 1 correct";
+      resultText = "Oh...!🙂🙂You answered 1 correct";
     }
     else 
     {
-      resultText = "Awww!! You are too bad...!";
+      resultText = "Awww!!🙃🙃🙃 You are too bad...!";
     }
     return resultText;
   }
@@ -37,6 +37,7 @@ class Result extends StatelessWidget
                 [
                   Text(
                     resultPhrase,
+                    textAlign: TextAlign.center,
                     style: const TextStyle(
                         color:Colors.black ,
                         fontSize:32 ,
